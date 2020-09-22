@@ -1,0 +1,30 @@
+﻿readBook_random = {
+	random_events = {
+		# 100 = event_readBook.0001		#Read in Study
+		100 = event_readBook.1000		#Go to the Library
+	}
+}
+
+event_onA_readBook_bringKnight = {
+	random_events = {
+		100 = event_readBook.1001		#Library Knight event1
+		# 100 = event_readBook.1002		#Library Knight event2
+		# 100 = event_readBook.1003		#Library Knight event3
+	}
+}
+
+event_onA_readBook_goAlone = {
+	random_events = {
+		100 = event_readBook.2001		#Library Alone event1
+		100 = event_readBook.2002		#Library Alone event2
+		# 100 = event_readBook.2003		#Library Alone event3
+	}
+}
+
+event_onA_readBook_bringCourtier = {
+	random_events = {
+		100 = event_readBook.3001		#Library Courtier event1
+		100 = event_readBook.3002		#Library Courtier event2
+		100 = event_readBook.3003		#Library Courtier event3
+	}
+}

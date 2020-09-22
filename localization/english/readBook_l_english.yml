@@ -1,0 +1,55 @@
+﻿l_english:
+#!Read Book Decision
+read_book_decision.t: "Literary Journey"
+read_book_decision.desc: "As I grow bored of the daily rutine of life, I decided it's time to pick out a good book. The burden of leading my realm to glories is taking a toll. Sleep is good, they say, but books are better!"
+read_book_decision.tt: "You start your literary journey"
+#Effects
+read_book_decision_tooltip: "This literary journey have a chance to give you [prestige|E], [piety|E] or dangerous wounds!"
+read_book_decision.c: "Start Literary Journey"
+activity_readBook: "literary journey"
+
+#!Go to the library
+event_readBook.1000.t: "A trip to the Castle Library"
+event_readBook.1000.desc: "My personal study contains a great many books, but as I dust of some of the old tomes I decide that it is time to visit [home.GetBaseNameNoTier]'s library, just to see if I can find something new and exciting"
+event_readBook.1000.option.a.name: "I will bring my household knight, [randomKnight.GetFirstName] as a guard."
+event_readBook.1000.option.b.name: "A nice stroll to the library disguised as a commoner will be fine."
+event_readBook.1000.option.c.name: "I will bring, [randomFamilyOrCourtier.GetFirstName] to entertain me."
+
+# [randomFamilyOrCourtier.GetRelationToString(GetPlayer)]
+# event_readBook.1000.option.c.name: "[SelectLocalization(EqualTo_string(GetPlayer.GetDynasty.GetName, randomFamilyOrCourtier.GetDynasty.GetName), randomFamilyOrCourtier.GetRelationToString(GetPlayer), 'text to replace your brother/sister etc')]"
+
+#!Library with Knight
+#event1
+event_readBook.1001.t: "Uneventful Wellguarded Trip"
+event_readBook.1001.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books')], a very interesting book."
+#event2
+event_readBook.1002.t: "Brave Knight"
+event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
+#event3
+event_readBook.1003.t: "Slow night"
+event_readBook.1003.desc: "[SCOPE.sC('randomKnight').GetFirstName] is bored, while you read."
+
+#!Library alone
+#event1
+event_readBook.2001.t: "Alone in the Library"
+event_readBook.2001.desc: "Fun and alone"
+#event1
+event_readBook.2002.t: "Invest in books"
+event_readBook.2002.desc: "Would I like to invest?"
+
+#!Library with courtier
+#event1
+event_readBook.3001.t: "Deceitful Courtier"
+event_readBook.3001.desc: "[SCOPE.sC('randomFamilyOrCourtier').GetFirstName] betrayed you"
+#event2
+event_readBook.3002.t: "Fun Courtier"
+event_readBook.3002.desc: "[SCOPE.sC('randomFamilyOrCourtier').GetFirstName] is enjoying"
+#event3
+event_readBook.3003.t: "Bored Courtier"
+event_readBook.3003.desc: "[SCOPE.sC('randomFamilyOrCourtier').GetFirstName] is bored"
+
+#!Read Book in Study
+event_readBook.0001.t: "Reading in the Study"
+event_readBook.0001.desc: "I decided to read in my own study"
+event_readBook.0001.option.a.name: "My courtier, [SCOPE.sC('randomCourtier').GetFirstName] recommended the book [ROOT.Char.Custom('books')]."
+event_readBook.0001.option.b.name: "I decided to read [ROOT.Char.Custom('books')], in my study."

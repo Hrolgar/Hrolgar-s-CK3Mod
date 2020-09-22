@@ -1,0 +1,72 @@
+﻿activity_readBook = {
+	expiration_days = 5
+	days_until_auto_start = 1
+	solo = yes
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
+		# Save scopes
+		activity_owner = {
+			if = {
+				limit = {
+					any_courtier_or_guest = {
+						is_available_healthy_ai_adult = yes
+					}
+				}
+				# Scope, if there is availabe close family in court, X is them, if not random courtier is X.
+				random_courtier = {
+					limit = {
+						is_available_healthy_ai_adult = yes
+						is_close_family_of = prev
+					}
+					alternative_limit = {
+						is_available_healthy_ai_adult = yes
+					}
+					save_scope_as = randomFamilyOrCourtier
+					if = {
+						limit = {
+							NOT = {
+								exists = scope:randomFamilyOrCourtier
+							}
+						}
+						# Create Character effect.
+					}
+				}
+				# Scope, to get a random courtier in court, that is NOT a close family member.
+				random_courtier = {
+					limit = {
+						NOT = {
+							is_close_family_of = prev
+						}
+						is_available_healthy_ai_adult = yes
+					}
+					save_scope_as = randomCourtier
+				}
+				# Scope, random knight in court
+				random_knight = {
+					limit = {
+						is_knight = yes
+						is_available_healthy_ai_adult = yes
+					}
+					save_scope_as = randomKnight
+				}
+			}
+			if = {
+				limit = {
+					is_landed = yes
+				}
+				random_held_title = {
+					limit = {
+						is_capital_barony = yes
+					}
+					save_scope_as = home
+				}
+			}
+		}
+		activity_owner = {
+			trigger_event = {
+				on_action = readBook_random
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+﻿standard_read_book_cooldown_time = 5

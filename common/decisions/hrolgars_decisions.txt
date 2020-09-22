@@ -1,0 +1,33 @@
+﻿read_book_decision = {
+	picture = gfx/interface/illustrations/decisions/decision_recruitment.dds
+	title = read_book_decision.t
+	desc = read_book_decision.desc
+	selection_tooltip = read_book_decision.tt
+	confirm_text = read_book_decision.c
+	ai_check_interval = 0
+	is_shown = {
+		is_landed = yes
+		highest_held_title_tier > tier_barony
+	}
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+	cooldown = {
+		days = standard_read_book_cooldown_time
+	}
+	effect = {
+		custom_tooltip = line_break
+		custom_tooltip = read_book_decision_tooltip
+		hidden_effect = {
+			hidden_effect = {
+				capital_province = {
+					spawn_activity = {
+						owner = root
+						type = activity_readBook
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = 0
+}

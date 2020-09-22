@@ -1,0 +1,8 @@
+﻿# steward_book = {
+# 	icon = steward_positive
+# 	stewardship = 1
+# }
+well_guarded = {
+	icon = intrigue_positive
+	hostile_scheme_resistance_add = 10
+}

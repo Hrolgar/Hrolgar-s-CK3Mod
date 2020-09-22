@@ -1,0 +1,141 @@
+﻿namespace = event_readBook
+#Going to the library ----------------------
+event_readBook.1000 = {
+	title = event_readBook.1000.t
+	theme = learning_scholarship_focus
+	right_portrait = root
+	desc = event_readBook.1000.desc
+	# Bring a Bodyguard
+	option = {
+		name = event_readBook.1000.option.a.name
+		trigger = {
+			exists = scope:randomKnight
+		}
+		trigger_event = {
+			on_action = event_onA_readBook_bringKnight
+		}
+	}
+	#Go alone
+	option = {
+		name = event_readBook.1000.option.b.name
+		trigger_event = {
+			on_action = event_onA_readBook_goAlone
+		}
+	}
+	#Bring a dynasty + courtier
+	option = {
+		name = event_readBook.1000.option.c.name
+		trigger = {
+			exists = scope:randomFamilyOrCourtier
+		}
+		trigger_event = {
+			on_action = event_onA_readBook_bringCourtier
+		}
+	}
+}
+
+#Bring knight to library
+event_readBook.1001 = {
+	title = event_readBook.1001.t
+	desc = event_readBook.1001.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Knight1"
+		add_character_modifier = {
+			modifier = well_guarded
+			days = 5
+		}
+	}
+}
+
+event_readBook.1002 = {
+	title = event_readBook.1002.t
+	desc = event_readBook.1002.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Knight2"
+	}
+}
+
+event_readBook.1003 = {
+	title = event_readBook.1003.t
+	desc = event_readBook.1003.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Knight3"
+	}
+}
+
+#Go alone to library
+event_readBook.2001 = {
+	title = event_readBook.2001.t
+	desc = event_readBook.2001.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Alone1"
+	}
+}
+
+event_readBook.2002 = {
+	title = event_readBook.2002.t
+	desc = event_readBook.2002.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Alone2"
+	}
+}
+
+#Bring Courtier to library
+event_readBook.3001 = {
+	title = event_readBook.3001.t
+	desc = event_readBook.3001.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Dynast1"
+	}
+}
+
+event_readBook.3002 = {
+	title = event_readBook.3002.t
+	desc = event_readBook.3002.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Dynast2"
+	}
+}
+
+event_readBook.3003 = {
+	title = event_readBook.3003.t
+	desc = event_readBook.3003.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		name = "Dynast3"
+	}
+}
+
+#Going to the study ----------------------
+event_readBook.0001 = {
+	title = event_readBook.0001.t
+	desc = event_readBook.0001.desc
+	theme = learning_scholarship_focus
+	right_portrait = root
+	option = {
+		trigger = {
+			NOT = {
+				exists = scope:randomCourtier
+			}
+		}
+		name = event_readBook.0001.option.a.name
+	}
+	option = {
+		name = event_readBook.0001.option.b.name
+	}
+}

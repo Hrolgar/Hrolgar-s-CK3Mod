@@ -1,0 +1,30 @@
+﻿if = {
+    limit = {
+        any_close_family_member = {
+            is_available_healthy_ai_adult = yes
+        }
+    }
+    random_close_family_member = {
+        limit = {
+            is_available_healthy_ai_adult = yes
+        }
+        save_scope_as = random_scope
+    }
+}
+else_if = {
+    limit = {
+        any_courtier = {
+            is_available_healthy_ai_adult = yes
+        }
+    }
+    random_courtier = {
+        limit = {
+            is_available_healthy_ai_adult = yes
+        }
+        save_scope_as = random_scope
+    }
+}
+else = {
+    #No any courtier in court
+    debug_log = random_scope
+}
