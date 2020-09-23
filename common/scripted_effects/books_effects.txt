@@ -1,0 +1,10 @@
+﻿add_books_effect = {
+	# $FLAG$ => name of book
+	add_character_modifier = {
+		modifier = $FLAG$
+	}
+	set_variable = {
+		name = book_name
+		value = flag:$FLAG$
+	}
+}

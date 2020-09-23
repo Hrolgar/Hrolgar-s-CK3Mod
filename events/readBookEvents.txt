@@ -39,21 +39,136 @@ event_readBook.1001 = {
 	title = event_readBook.1001.t
 	desc = event_readBook.1001.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomKnight
+		animation = personality_honorable
+	}
 	option = {
-		name = "Knight1"
+		name = "event_readBook.1001.option1"
 		add_character_modifier = {
 			modifier = well_guarded
 			days = 5
 		}
+		random_list = {
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_0
+				}
+				add_books_effect = {
+					FLAG = martial1_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_1
+				}
+				add_books_effect = {
+					FLAG = martial2_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_2
+				}
+				add_books_effect = {
+					FLAG = martial3_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_10
+				}
+				add_books_effect = {
+					FLAG = intrigue10_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_11
+				}
+				add_books_effect = {
+					FLAG = intrigue11_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_12
+				}
+				add_books_effect = {
+					FLAG = intrigue12_book
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_50
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_50
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_51
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_51
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_52
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_52
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_53
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_53
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_54
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_54
+				}
+			}
+			1 = {
+				trigger = {
+					var:book_name = flag:random_book_55
+				}
+				add_books_effect = {
+					FLAG = nonSpecific_55
+				}
+			}
+		}
 	}
+	# if i want to add an event to finish of the chain.
+	# after = {
+	# }
 }
 
 event_readBook.1002 = {
 	title = event_readBook.1002.t
 	desc = event_readBook.1002.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomKnight
+		animation = personality_honorable
+	}
 	option = {
 		name = "Knight2"
 	}
@@ -63,7 +178,14 @@ event_readBook.1003 = {
 	title = event_readBook.1003.t
 	desc = event_readBook.1003.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomKnight
+		animation = personality_honorable
+	}
 	option = {
 		name = "Knight3"
 	}
@@ -95,7 +217,14 @@ event_readBook.3001 = {
 	title = event_readBook.3001.t
 	desc = event_readBook.3001.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomCourtier
+		animation = personality_honorable
+	}
 	option = {
 		name = "Dynast1"
 	}
@@ -105,7 +234,14 @@ event_readBook.3002 = {
 	title = event_readBook.3002.t
 	desc = event_readBook.3002.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomCourtier
+		animation = personality_honorable
+	}
 	option = {
 		name = "Dynast2"
 	}
@@ -115,7 +251,14 @@ event_readBook.3003 = {
 	title = event_readBook.3003.t
 	desc = event_readBook.3003.desc
 	theme = learning_scholarship_focus
-	right_portrait = root
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	left_portrait = {
+		character = scope:randomCourtier
+		animation = personality_honorable
+	}
 	option = {
 		name = "Dynast3"
 	}

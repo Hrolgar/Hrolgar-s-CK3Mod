@@ -28,3 +28,27 @@ else = {
     #No any courtier in court
     debug_log = random_scope
 }
+
+
+Liste for random books
+
+random_list = {
+    1 = {
+        trigger = {
+            NOT = {
+                is_target_in_variable_list = {
+                    name = books_read
+                    target = flag:random_book_6
+                }
+            }
+        }
+        set_variable = {
+            name = book_flag
+            value = flag:random_book_6
+        }
+        add_to_variable_list = {
+            name = books_read
+            target = flag:random_book_6
+        }
+    }
+}

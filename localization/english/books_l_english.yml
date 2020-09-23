@@ -1,8 +1,46 @@
 ﻿l_english:
-books_1: ""The Warriors Path""
-books_2: ""How To Stab Your Lord in the Back""
+#! Martial books (0 to 9)
+martial1_book: ""The Warriors Path""
+event_readBook_martial1_book_modifier: "[GetModifier('martial1_book').GetNameWithTooltip]"
+
+martial2_book: ""Ninja your way through life""
+event_readBook_martial2_book_modifier: "[GetModifier('martial2_book').GetNameWithTooltip]"
+
+martial3_book: ""Become Berserker""
+event_readBook_martial3_book_modifier: "[GetModifier('martial3_book').GetNameWithTooltip]"
+
+#! Intrigue books (10 to 19)
+intrigue10_book: ""How to stab your Lord in the back""
+event_readBook_intrigue10_book_modifier: "[GetModifier('intrigue10_book').GetNameWithTooltip]"
+
+intrigue11_book: ""Seducing your brothers lover""
+event_readBook_intrigue11_book_modifier: "[GetModifier('intrigue11_book').GetNameWithTooltip]"
+
+intrigue12_book: ""Execution for beginners""
+event_readBook_intrigue12_book_modifier: "[GetModifier('intrigue12_book').GetNameWithTooltip]"
+#! Diplomacy books (20 to 29)
 books_3: ""Befriend Your Horse""
-books_4: ""Think like a Jew[SCOPE.sC('steward_book')|e]""
+#! Steward books (30 to 39)
+books_4: ""Think like a Jew""
+#! Learning books (40 to 49)
 books_5: ""Scientist, and why they are evil""
-books_6: ""Incest, it's not so bad""
-books_7: ""Glitterhoof's demise""
+
+
+#! Non Specific books (50 to --)
+nonSpecific_50: ""Incest, it's not so bad""
+event_readBook_nonSpecific_50_book_modifier: "[GetModifier('nonSpecific_50').GetNameWithTooltip]"
+
+nonSpecific_51: ""Glitterhoof's demise""
+event_readBook_nonSpecific_51_book_modifier: "[GetModifier('nonSpecific_51').GetNameWithTooltip]"
+
+nonSpecific_52: ""Did the arrow miss the deer and hit your King?""
+event_readBook_nonSpecific_52_book_modifier: "[GetModifier('nonSpecific_52').GetNameWithTooltip]"
+
+nonSpecific_53: ""Always Ask Your Man, the Key to Femininty""
+event_readBook_nonSpecific_53_book_modifier: "[GetModifier('nonSpecific_53').GetNameWithTooltip]"
+
+nonSpecific_54: ""How to make your Wife your Mistress""
+event_readBook_nonSpecific_54_book_modifier: "[GetModifier('nonSpecific_54').GetNameWithTooltip]"
+
+nonSpecific_55: ""If the devil "MADE" you do it""
+event_readBook_nonSpecific_55_book_modifier: "[GetModifier('nonSpecific_55').GetNameWithTooltip]"

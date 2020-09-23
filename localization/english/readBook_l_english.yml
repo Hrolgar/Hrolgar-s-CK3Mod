@@ -19,13 +19,14 @@ event_readBook.1000.option.c.name: "I will bring, [randomFamilyOrCourtier.GetFir
 # event_readBook.1000.option.c.name: "[SelectLocalization(EqualTo_string(GetPlayer.GetDynasty.GetName, randomFamilyOrCourtier.GetDynasty.GetName), randomFamilyOrCourtier.GetRelationToString(GetPlayer), 'text to replace your brother/sister etc')]"
 
 #!Library with Knight
-#event1
-event_readBook.1001.t: "Uneventful Wellguarded Trip"
-event_readBook.1001.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books')], a very interesting book."
-#event2
-event_readBook.1002.t: "Brave Knight"
+#event Uneventful------------------------------------------------
+event_readBook.1001.t: "Uneventful Trip"
+event_readBook.1001.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books_modifier')], a very interesting book."
+event_readBook.1001.option1: "This is useful!"
+#event2------------------------------------------------
+event_readBook.1002.t: "Attacked on the Road!"
 event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
-#event3
+#event3------------------------------------------------
 event_readBook.1003.t: "Slow night"
 event_readBook.1003.desc: "[SCOPE.sC('randomKnight').GetFirstName] is bored, while you read."
 

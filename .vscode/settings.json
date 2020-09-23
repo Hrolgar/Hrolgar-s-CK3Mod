@@ -1,3 +1,5 @@
 {
-    "files.encoding": "utf8bom"
+    "files.encoding": "utf8bom",
+    "cwtools.rules_version": "manual",
+    "cwtools.rules_folder": "C:\\Users\\Helgi\\Desktop\\cwtools-ck3-config-master"
 }

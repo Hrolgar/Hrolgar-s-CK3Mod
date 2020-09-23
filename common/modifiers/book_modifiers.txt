@@ -1,8 +1,68 @@
-﻿# steward_book = {
-# 	icon = steward_positive
-# 	stewardship = 1
-# }
+﻿#! Other modifiers
 well_guarded = {
 	icon = intrigue_positive
 	hostile_scheme_resistance_add = 10
+}
+
+# Martial books
+martial1_book = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial2_book = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial3_book = {
+	icon = martial_positive
+	martial = 1
+}
+
+# Intrigue books
+intrigue10_book = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue11_book = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue12_book = {
+	icon = intrigue_positive
+	martial = 1
+}
+
+#! Non Specific books
+nonSpecific_50 = {
+	icon = family_positive
+	stewardship = 1
+}
+
+nonSpecific_51 = {
+	icon = dog_positive
+	stewardship = 1
+}
+
+nonSpecific_52 = {
+	icon = hunt_positive
+	stewardship = 1
+}
+
+nonSpecific_53 = {
+	icon = love_positive
+	stewardship = 1
+}
+
+nonSpecific_54 = {
+	icon = love_positive
+	stewardship = 1
+}
+
+nonSpecific_55 = {
+	icon = magic_positive
+	stewardship = 1
 }
