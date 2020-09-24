@@ -5,33 +5,33 @@ well_guarded = {
 }
 
 # Martial books
-martial1_book = {
+martial_book_0 = {
 	icon = martial_positive
 	martial = 1
 }
 
-martial2_book = {
+martial_book_1 = {
 	icon = martial_positive
 	martial = 1
 }
 
-martial3_book = {
+martial_book_2 = {
 	icon = martial_positive
 	martial = 1
 }
 
 # Intrigue books
-intrigue10_book = {
+intrigue_book_10 = {
 	icon = intrigue_positive
 	intrigue = 1
 }
 
-intrigue11_book = {
+intrigue_book_11 = {
 	icon = intrigue_positive
 	intrigue = 1
 }
 
-intrigue12_book = {
+intrigue_book_12 = {
 	icon = intrigue_positive
 	martial = 1
 }

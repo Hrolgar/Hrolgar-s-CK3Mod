@@ -1,0 +1,100 @@
+﻿select_random_book_effect_for_event = {
+	random_list = {
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_0
+			}
+			add_books_effect = {
+				FLAG = martial_book_0
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_1
+			}
+			add_books_effect = {
+				FLAG = martial_book_1
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_2
+			}
+			add_books_effect = {
+				FLAG = martial_book_2
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_10
+			}
+			add_books_effect = {
+				FLAG = intrigue_book_10
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_11
+			}
+			add_books_effect = {
+				FLAG = intrigue_book_11
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_12
+			}
+			add_books_effect = {
+				FLAG = intrigue_book_12
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_50
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_50
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_51
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_51
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_52
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_52
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_53
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_53
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_54
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_54
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_55
+			}
+			add_books_effect = {
+				FLAG = nonSpecific_55
+			}
+		}
+	}
+}

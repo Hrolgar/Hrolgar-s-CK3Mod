@@ -1,23 +1,23 @@
 ﻿l_english:
 #! Martial books (0 to 9)
-martial1_book: ""The Warriors Path""
-event_readBook_martial1_book_modifier: "[GetModifier('martial1_book').GetNameWithTooltip]"
+martial_book_0: ""The Warriors Path""
+event_readBook_martial_0_book_modifier: "[GetModifier('martial_book_0').GetNameWithTooltip]"
 
-martial2_book: ""Ninja your way through life""
-event_readBook_martial2_book_modifier: "[GetModifier('martial2_book').GetNameWithTooltip]"
+martial_book_1: ""Ninja your way through life""
+event_readBook_martial_1_book_modifier: "[GetModifier('martial_book_1').GetNameWithTooltip]"
 
-martial3_book: ""Become Berserker""
-event_readBook_martial3_book_modifier: "[GetModifier('martial3_book').GetNameWithTooltip]"
+martial_book_2: ""Become Berserker""
+event_readBook_martial_2_book_modifier: "[GetModifier('martial_book_2').GetNameWithTooltip]"
 
 #! Intrigue books (10 to 19)
-intrigue10_book: ""How to stab your Lord in the back""
-event_readBook_intrigue10_book_modifier: "[GetModifier('intrigue10_book').GetNameWithTooltip]"
+intrigue_book_10: ""How to stab your Lord in the back""
+event_readBook_intrigue_10_book_modifier: "[GetModifier('intrigue_book_10').GetNameWithTooltip]"
 
-intrigue11_book: ""Seducing your brothers lover""
-event_readBook_intrigue11_book_modifier: "[GetModifier('intrigue11_book').GetNameWithTooltip]"
+intrigue_book_11: ""Seducing your brothers lover""
+event_readBook_intrigue_11_book_modifier: "[GetModifier('intrigue_book_11').GetNameWithTooltip]"
 
-intrigue12_book: ""Execution for beginners""
-event_readBook_intrigue12_book_modifier: "[GetModifier('intrigue12_book').GetNameWithTooltip]"
+intrigue_book_12: ""Torture for Beginners""
+event_readBook_intrigue_12_book_modifier: "[GetModifier('intrigue_book_12').GetNameWithTooltip]"
 #! Diplomacy books (20 to 29)
 books_3: ""Befriend Your Horse""
 #! Steward books (30 to 39)
