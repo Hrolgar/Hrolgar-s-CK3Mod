@@ -162,6 +162,87 @@
 				FLAG = intrigue_book_19
 			}
 		}
+		#Diplomacy books
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_20
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_20
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_21
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_21
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_22
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_22
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_23
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_23
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_24
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_24
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_25
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_25
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_26
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_26
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_27
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_27
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_28
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_28
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_29
+			}
+			add_books_effect = {
+				FLAG = diplomacy_book_29
+			}
+		}
 		#Generic books
 		1 = {
 			trigger = {

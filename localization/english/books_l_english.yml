@@ -61,7 +61,36 @@ event_readBook_intrigue_18_book_modifier: "[GetModifier('intrigue_book_18').GetN
 intrigue_book_19: ""Lustful adventures""
 event_readBook_intrigue_19_book_modifier: "[GetModifier('intrigue_book_19').GetNameWithTooltip]"
 #! Diplomacy books (20 to 29)
-books_3: ""Befriend Your Horse""
+diplomacy_book_20: ""Befriend Your Horse""
+event_readBook_diplomacy_20_book_modifier: "[GetModifier('diplomacy_book_20').GetNameWithTooltip]"
+
+diplomacy_book_21: ""Never hate your enemies. It affects your judgment""
+event_readBook_diplomacy_21_book_modifier: "[GetModifier('diplomacy_book_21').GetNameWithTooltip]"
+
+diplomacy_book_22: ""Friends of the King""
+event_readBook_diplomacy_22_book_modifier: "[GetModifier('diplomacy_book_22').GetNameWithTooltip]"
+
+diplomacy_book_23: ""Offer Vassalization""
+event_readBook_diplomacy_23_book_modifier: "[GetModifier('diplomacy_book_23').GetNameWithTooltip]"
+
+diplomacy_book_24: ""I am King!""
+event_readBook_diplomacy_24_book_modifier: "[GetModifier('diplomacy_book_24').GetNameWithTooltip]"
+
+diplomacy_book_25: ""Foreign culture""
+event_readBook_diplomacy_25_book_modifier: "[GetModifier('diplomacy_book_25').GetNameWithTooltip]"
+
+diplomacy_book_26: ""Not my de jure liege""
+event_readBook_diplomacy_26_book_modifier: "[GetModifier('diplomacy_book_26').GetNameWithTooltip]"
+
+diplomacy_book_27: ""Power""
+event_readBook_diplomacy_27_book_modifier: "[GetModifier('diplomacy_book_27').GetNameWithTooltip]"
+
+diplomacy_book_28: ""Demand Peace""
+event_readBook_diplomacy_28_book_modifier: "[GetModifier('diplomacy_book_28').GetNameWithTooltip]"
+
+diplomacy_book_29: ""Invite to Court""
+event_readBook_diplomacy_29_book_modifier: "[GetModifier('diplomacy_book_29').GetNameWithTooltip]"
+
 #! Steward books (30 to 39)
 books_4: ""Think like a Jew""
 #! Learning books (40 to 49)

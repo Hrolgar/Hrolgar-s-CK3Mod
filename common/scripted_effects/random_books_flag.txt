@@ -200,6 +200,7 @@
 				target = flag:random_book_9
 			}
 		}
+		# Intrigue
 		1 = {
 			#Intrigue 1 book
 			trigger = {
@@ -398,6 +399,207 @@
 			add_to_variable_list = {
 				name = books_read
 				target = flag:random_book_19
+			}
+		}
+		# Diplomacy books
+		1 = {
+			#Diplomacy 1 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_20
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_20
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_20
+			}
+		}
+		1 = {
+			#Diplomacy 2 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_21
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_21
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_21
+			}
+		}
+		1 = {
+			#Diplomacy 3 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_22
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_22
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_22
+			}
+		}
+		1 = {
+			#Diplomacy 4 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_23
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_23
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_23
+			}
+		}
+		1 = {
+			#Diplomacy 5 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_24
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_24
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_24
+			}
+		}
+		1 = {
+			#Diplomacy 6 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_25
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_25
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_25
+			}
+		}
+		1 = {
+			#Diplomacy 7 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_26
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_26
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_26
+			}
+		}
+		1 = {
+			#Diplomacy 8 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_27
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_27
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_27
+			}
+		}
+		1 = {
+			#Diplomacy 9 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_28
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_28
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_28
+			}
+		}
+		1 = {
+			#Diplomacy 10 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_29
+					}
+				}
+				has_lifestyle = diplomacy_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_29
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_29
 			}
 		}
 		# Non Specific books

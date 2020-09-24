@@ -1,6 +1,7 @@
 ﻿books_modifier = {
 	type = character
 	random_valid = yes
+	#Martial books
 	text = {
 		trigger = {
 			var:book_name = flag:random_book_0
@@ -121,6 +122,67 @@
 			var:book_name = flag:random_book_19
 		}
 		localization_key = event_readBook_intrigue_19_book_modifier
+	}
+	#Diplomacy books
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_20
+		}
+		localization_key = event_readBook_diplomacy_20_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_21
+		}
+		localization_key = event_readBook_diplomacy_21_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_22
+		}
+		localization_key = event_readBook_diplomacy_22_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_23
+		}
+		localization_key = event_readBook_diplomacy_23_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_24
+		}
+		localization_key = event_readBook_diplomacy_24_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_25
+		}
+		localization_key = event_readBook_diplomacy_25_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_26
+		}
+		localization_key = event_readBook_diplomacy_26_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_27
+		}
+		localization_key = event_readBook_diplomacy_27_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_28
+		}
+		localization_key = event_readBook_diplomacy_28_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_29
+		}
+		localization_key = event_readBook_diplomacy_29_book_modifier
 	}
 	# Non specific books 
 	text = {

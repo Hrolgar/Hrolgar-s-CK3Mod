@@ -107,6 +107,56 @@ intrigue_book_19 = {
 }
 
 # Diplomacy books
+diplomacy_book_20 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_21 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_22 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_23 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_24 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_25 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_26 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_27 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_28 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
+diplomacy_book_29 = {
+	icon = diplomacy_positive
+	martial = 1
+}
+
 # Steward Books
 # Learning Books
 #! Non Specific books
