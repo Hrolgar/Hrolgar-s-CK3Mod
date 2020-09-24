@@ -6,6 +6,7 @@ event_readBook.1000 = {
 	right_portrait = root
 	desc = event_readBook.1000.desc
 	immediate = {
+		# Begins at the first ever event, and set the amount of books you've red to 0, if you haven't read books.
 		if = {
 			limit = {
 				NOT = {
@@ -66,18 +67,7 @@ event_readBook.1001 = {
 			modifier = well_guarded
 			days = 5
 		}
-		#Grabs all the books, and pick the modifier that fits the description book.
-		# if = {
-		# 	limit = {
-		# 		NOT = {
-		# 			has_variable = amount_of_books_read
-		# 		}
-		# 	}
-		# 	set_variable = {
-		# 		name = amount_of_books_read
-		# 		value = 0
-		# 	}
-		# }
+		#Checks to see if you've read all the books.
 		if = {
 			limit = {
 				var:amount_of_books_read >= 12				#AMOUNT_OF_BOOKS

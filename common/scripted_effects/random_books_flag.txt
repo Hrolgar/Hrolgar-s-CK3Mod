@@ -1,7 +1,7 @@
 ﻿random_books_flag_for_activity = {
 	random_list = {
 		1 = {
-			#Martial 1 book
+			#Martial 0 book
 			trigger = {
 				NOT = {
 					is_target_in_variable_list = {
@@ -21,7 +21,7 @@
 			}
 		}
 		1 = {
-			#Martial 2 book
+			#Martial 1 book
 			trigger = {
 				NOT = {
 					is_target_in_variable_list = {
@@ -41,7 +41,7 @@
 			}
 		}
 		1 = {
-			#Martial 3 book
+			#Martial 2 book
 			trigger = {
 				NOT = {
 					is_target_in_variable_list = {
@@ -58,6 +58,146 @@
 			add_to_variable_list = {
 				name = books_read
 				target = flag:random_book_2
+			}
+		}
+		1 = {
+			#Martial 3 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_3
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_3
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_3
+			}
+		}
+		1 = {
+			#Martial 4 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_4
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_4
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_4
+			}
+		}
+		1 = {
+			#Martial 5 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_5
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_5
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_5
+			}
+		}
+		1 = {
+			#Martial 6 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_6
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_6
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_6
+			}
+		}
+		1 = {
+			#Martial 7 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_7
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_7
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_7
+			}
+		}
+		1 = {
+			#Martial 8 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_8
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_8
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_8
+			}
+		}
+		1 = {
+			#Martial 9 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_9
+					}
+				}
+				has_lifestyle = martial_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_9
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_9
 			}
 		}
 		1 = {
@@ -118,6 +258,146 @@
 			add_to_variable_list = {
 				name = books_read
 				target = flag:random_book_12
+			}
+		}
+		1 = {
+			#Intrigue 4 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_13
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_13
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_13
+			}
+		}
+		1 = {
+			#Intrigue 5 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_14
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_14
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_14
+			}
+		}
+		1 = {
+			#Intrigue 6 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_15
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_15
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_15
+			}
+		}
+		1 = {
+			#Intrigue 7 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_16
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_16
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_16
+			}
+		}
+		1 = {
+			#Intrigue 8 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_17
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_17
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_17
+			}
+		}
+		1 = {
+			#Intrigue 9 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_18
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_18
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_18
+			}
+		}
+		1 = {
+			#Intrigue 10 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_19
+					}
+				}
+				has_lifestyle = intrigue_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_19
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_19
 			}
 		}
 		# Non Specific books
@@ -235,9 +515,117 @@
 				target = flag:random_book_55
 			}
 		}
+		1 = {
+			#Fun2 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_56
+					}
+				}
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_56
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_56
+			}
+		}
+		1 = {
+			#Fun3 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_57
+					}
+				}
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_57
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_57
+			}
+		}
+		1 = {
+			#Fun4 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_58
+					}
+				}
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_58
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_58
+			}
+		}
+		1 = {
+			#Fun5 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_59
+					}
+				}
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_59
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_59
+			}
+		}
+		1 = {
+			#Fun6 book
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_60
+					}
+				}
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_60
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_60
+			}
+		}
 	}
-	change_variable = {
-		name = amount_of_books_read
-		add = 1
+	if = {
+		limit = {
+			NOT = {
+				has_variable = amount_of_books_read
+			}
+		}
+		set_variable = {
+			name = amount_of_books_read
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = amount_of_books_read
+			add = 1
+		}
 	}
 }

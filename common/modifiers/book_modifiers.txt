@@ -20,6 +20,41 @@ martial_book_2 = {
 	martial = 1
 }
 
+martial_book_3 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_4 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_5 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_6 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_7 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_8 = {
+	icon = martial_positive
+	martial = 1
+}
+
+martial_book_9 = {
+	icon = martial_positive
+	martial = 1
+}
+
 # Intrigue books
 intrigue_book_10 = {
 	icon = intrigue_positive
@@ -36,6 +71,44 @@ intrigue_book_12 = {
 	martial = 1
 }
 
+intrigue_book_13 = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue_book_14 = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue_book_15 = {
+	icon = intrigue_positive
+	martial = 1
+}
+
+intrigue_book_16 = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue_book_17 = {
+	icon = intrigue_positive
+	intrigue = 1
+}
+
+intrigue_book_18 = {
+	icon = intrigue_positive
+	martial = 1
+}
+
+intrigue_book_19 = {
+	icon = intrigue_positive
+	martial = 1
+}
+
+# Diplomacy books
+# Steward Books
+# Learning Books
 #! Non Specific books
 nonSpecific_50 = {
 	icon = family_positive
@@ -63,6 +136,31 @@ nonSpecific_54 = {
 }
 
 nonSpecific_55 = {
+	icon = magic_positive
+	stewardship = 1
+}
+
+nonSpecific_56 = {
+	icon = magic_positive
+	stewardship = 1
+}
+
+nonSpecific_57 = {
+	icon = magic_positive
+	stewardship = 1
+}
+
+nonSpecific_58 = {
+	icon = magic_positive
+	stewardship = 1
+}
+
+nonSpecific_59 = {
+	icon = magic_positive
+	stewardship = 1
+}
+
+nonSpecific_60 = {
 	icon = magic_positive
 	stewardship = 1
 }
