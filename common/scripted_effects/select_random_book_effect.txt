@@ -1,6 +1,8 @@
 ﻿select_random_book_effect_for_event = {
 	random_list = {
+		#--------------------
 		#Martial Books
+		#--------------------
 		1 = {
 			trigger = {
 				var:book_name = flag:random_book_0
@@ -81,7 +83,9 @@
 				FLAG = martial_book_9
 			}
 		}
+		#--------------------
 		#Intrigue Books
+		#--------------------
 		1 = {
 			trigger = {
 				var:book_name = flag:random_book_10
@@ -162,7 +166,9 @@
 				FLAG = intrigue_book_19
 			}
 		}
+		#--------------------
 		#Diplomacy books
+		#--------------------
 		1 = {
 			trigger = {
 				var:book_name = flag:random_book_20
@@ -243,7 +249,175 @@
 				FLAG = diplomacy_book_29
 			}
 		}
+		#--------------------
+		# StewardShip Books
+		#--------------------
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_30
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_30
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_31
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_31
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_32
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_32
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_33
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_33
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_34
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_34
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_35
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_35
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_36
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_36
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_37
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_37
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_38
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_38
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_39
+			}
+			add_books_effect = {
+				FLAG = stewardship_book_39
+			}
+		}
+		#--------------------
+		#Learning books
+		#--------------------
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_40
+			}
+			add_books_effect = {
+				FLAG = learning_book_40
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_41
+			}
+			add_books_effect = {
+				FLAG = learning_book_41
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_42
+			}
+			add_books_effect = {
+				FLAG = learning_book_42
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_43
+			}
+			add_books_effect = {
+				FLAG = learning_book_43
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_44
+			}
+			add_books_effect = {
+				FLAG = learning_book_44
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_45
+			}
+			add_books_effect = {
+				FLAG = learning_book_45
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_46
+			}
+			add_books_effect = {
+				FLAG = learning_book_46
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_47
+			}
+			add_books_effect = {
+				FLAG = learning_book_47
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_48
+			}
+			add_books_effect = {
+				FLAG = learning_book_48
+			}
+		}
+		1 = {
+			trigger = {
+				var:book_name = flag:random_book_49
+			}
+			add_books_effect = {
+				FLAG = learning_book_49
+			}
+		}
+		#--------------------
 		#Generic books
+		#--------------------
 		1 = {
 			trigger = {
 				var:book_name = flag:random_book_50

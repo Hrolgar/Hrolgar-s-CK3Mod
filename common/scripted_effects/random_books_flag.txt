@@ -1,5 +1,8 @@
 ﻿random_books_flag_for_activity = {
 	random_list = {
+		#------------------
+		# Martial books
+		#------------------
 		1 = {
 			#Martial 0 book
 			trigger = {
@@ -200,7 +203,9 @@
 				target = flag:random_book_9
 			}
 		}
-		# Intrigue
+		#------------------
+		# Intrigue Books
+		#------------------
 		1 = {
 			#Intrigue 1 book
 			trigger = {
@@ -401,7 +406,9 @@
 				target = flag:random_book_19
 			}
 		}
+		#------------------
 		# Diplomacy books
+		#------------------
 		1 = {
 			#Diplomacy 1 book
 			trigger = {
@@ -602,7 +609,395 @@
 				target = flag:random_book_29
 			}
 		}
+		#------------------
+		#StewardShip books
+		#------------------
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_30
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_30
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_30
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_31
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_31
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_31
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_32
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_32
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_32
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_33
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_33
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_33
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_34
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_34
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_34
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_35
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_35
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_35
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_36
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_36
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_36
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_37
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_37
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_37
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_38
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_38
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_38
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_39
+					}
+				}
+				has_lifestyle = stewardship_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_39
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_39
+			}
+		}
+		#--------------------------
+		# Learning Books 
+		#--------------------------
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_40
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_40
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_40
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_41
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_41
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_41
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_42
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_42
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_42
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_43
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_43
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_43
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_44
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_44
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_44
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_45
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_45
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_45
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_46
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_46
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_46
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_47
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_47
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_47
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_48
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_48
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_48
+			}
+		}
+		1 = {
+			trigger = {
+				NOT = {
+					is_target_in_variable_list = {
+						name = books_read
+						target = flag:random_book_49
+					}
+				}
+				has_lifestyle = learning_lifestyle
+			}
+			set_variable = {
+				name = book_name
+				value = flag:random_book_49
+			}
+			add_to_variable_list = {
+				name = books_read
+				target = flag:random_book_49
+			}
+		}
+		#--------------------------
 		# Non Specific books
+		#--------------------------
 		1 = {
 			#Incest book
 			trigger = {

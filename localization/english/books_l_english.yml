@@ -43,7 +43,7 @@ event_readBook_intrigue_12_book_modifier: "[GetModifier('intrigue_book_12').GetN
 intrigue_book_13: ""Double Agent""
 event_readBook_intrigue_13_book_modifier: "[GetModifier('intrigue_book_13').GetNameWithTooltip]"
 
-intrigue_book_14: ""SpyMaster's Guide""
+intrigue_book_14: ""Kidnapping your liege in 10 easy steps""
 event_readBook_intrigue_14_book_modifier: "[GetModifier('intrigue_book_14').GetNameWithTooltip]"
 
 intrigue_book_15: ""Secrets and how to find them""
@@ -92,10 +92,76 @@ diplomacy_book_29: ""Invite to Court""
 event_readBook_diplomacy_29_book_modifier: "[GetModifier('diplomacy_book_29').GetNameWithTooltip]"
 
 #! Steward books (30 to 39)
-books_4: ""Think like a Jew""
-#! Learning books (40 to 49)
-books_5: ""Scientist, and why they are evil""
+stewardship_book_30: ""Think Like a Jew"" 
+ event_readBook_stewardship_30_book_modifier: "[GetModifier('stewardship_book_30').GetNameWithTooltip]" 
 
+
+stewardship_book_31: ""He who Will Not Economize Will Have to Agonize"" 
+ event_readBook_stewardship_31_book_modifier: "[GetModifier('stewardship_book_31').GetNameWithTooltip]" 
+
+
+stewardship_book_32: ""Gold, Man's best friend"" 
+ event_readBook_stewardship_32_book_modifier: "[GetModifier('stewardship_book_32').GetNameWithTooltip]" 
+
+
+stewardship_book_33: ""Father of the Realm"" 
+ event_readBook_stewardship_33_book_modifier: "[GetModifier('stewardship_book_33').GetNameWithTooltip]" 
+
+
+stewardship_book_34: ""Build Your Economy"" 
+ event_readBook_stewardship_34_book_modifier: "[GetModifier('stewardship_book_34').GetNameWithTooltip]" 
+
+
+stewardship_book_35: ""Peasant's Deserve High Taxation"" 
+ event_readBook_stewardship_35_book_modifier: "[GetModifier('stewardship_book_35').GetNameWithTooltip]" 
+
+
+stewardship_book_36: ""Midas Touched"" 
+ event_readBook_stewardship_36_book_modifier: "[GetModifier('stewardship_book_36').GetNameWithTooltip]" 
+
+
+stewardship_book_37: ""Fortune Builder"" 
+ event_readBook_stewardship_37_book_modifier: "[GetModifier('stewardship_book_37').GetNameWithTooltip]" 
+
+
+stewardship_book_38: ""Conscientious"" 
+ event_readBook_stewardship_38_book_modifier: "[GetModifier('stewardship_book_38').GetNameWithTooltip]" 
+
+
+stewardship_book_39: ""Rulership"" 
+ event_readBook_stewardship_39_book_modifier: "[GetModifier('stewardship_book_39').GetNameWithTooltip]" 
+
+
+#! Learning books (40 to 49)
+learning_book_40: ""Scientist and Why they are Evil"" 
+ event_readBook_learning_40_book_modifier: "[GetModifier('learning_book_40').GetNameWithTooltip]" 
+
+learning_book_41: ""Did the Pope shit in the Woods?"" 
+ event_readBook_learning_41_book_modifier: "[GetModifier('learning_book_41').GetNameWithTooltip]" 
+
+learning_book_42: ""Innovations, who Needs them?"" 
+ event_readBook_learning_42_book_modifier: "[GetModifier('learning_book_42').GetNameWithTooltip]" 
+
+learning_book_43: ""Religions of the World"" 
+ event_readBook_learning_43_book_modifier: "[GetModifier('learning_book_43').GetNameWithTooltip]" 
+
+learning_book_44: ""Scholarship"" 
+ event_readBook_learning_44_book_modifier: "[GetModifier('learning_book_44').GetNameWithTooltip]" 
+
+learning_book_45: ""Theology"" 
+ event_readBook_learning_45_book_modifier: "[GetModifier('learning_book_45').GetNameWithTooltip]" 
+
+learning_book_46: ""Mystic"" 
+ event_readBook_learning_46_book_modifier: "[GetModifier('learning_book_46').GetNameWithTooltip]" 
+
+learning_book_47: ""How to build an Obersvatory"" 
+ event_readBook_learning_47_book_modifier: "[GetModifier('learning_book_47').GetNameWithTooltip]" 
+
+learning_book_48: ""Pilgrimage ABC"" 
+ event_readBook_learning_48_book_modifier: "[GetModifier('learning_book_48').GetNameWithTooltip]" 
+
+learning_book_49: ""Devil in the Woods"" 
+ event_readBook_learning_49_book_modifier: "[GetModifier('learning_book_49').GetNameWithTooltip]" 
 
 #! Non Specific books (50 to --)
 nonSpecific_50: ""Incest, it's not so bad""

@@ -1,181 +1,52 @@
 ﻿# namespace = event_readBook
-# break_error.1 = {
+# event_readBook.9999 = {
 # 	type = character_event
 # 	hidden = yes
 # 	immediate = {
-# 		if = {
-# 			limit = {
+# 		break_if = {
+# 			OR = {
 # 				has_character_flag = martial_book_0
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = martial_book_1
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = martial_book_2
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
+# 				has_character_flag = martial_book_3
+# 				has_character_flag = martial_book_4
+# 				has_character_flag = martial_book_5
+# 				has_character_flag = martial_book_6
+# 				has_character_flag = martial_book_7
+# 				has_character_flag = martial_book_8
+# 				has_character_flag = martial_book_9
 # 				has_character_flag = intrigue_book_10
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = intrigue_book_11
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = intrigue_book_12
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
+# 				has_character_flag = intrigue_book_13
+# 				has_character_flag = intrigue_book_14
+# 				has_character_flag = intrigue_book_15
+# 				has_character_flag = intrigue_book_16
+# 				has_character_flag = intrigue_book_17
+# 				has_character_flag = intrigue_book_18
+# 				has_character_flag = intrigue_book_19
+# 				has_character_flag = diplomacy_book_20
+# 				has_character_flag = diplomacy_book_21
+# 				has_character_flag = diplomacy_book_22
+# 				has_character_flag = diplomacy_book_23
+# 				has_character_flag = diplomacy_book_24
+# 				has_character_flag = diplomacy_book_25
+# 				has_character_flag = diplomacy_book_26
+# 				has_character_flag = diplomacy_book_27
+# 				has_character_flag = diplomacy_book_28
+# 				has_character_flag = diplomacy_book_29
 # 				has_character_flag = nonSpecific_50
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = nonSpecific_51
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = nonSpecific_52
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = nonSpecific_53
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = nonSpecific_54
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
 # 				has_character_flag = nonSpecific_55
+# 				has_character_flag = nonSpecific_56
+# 				has_character_flag = nonSpecific_57
+# 				has_character_flag = nonSpecific_58
+# 				has_character_flag = nonSpecific_59
+# 				has_character_flag = nonSpecific_60
 # 			}
-# 			add_prestige = 0
 # 		}
-# 		#Variables
-# 		if = {
-# 			limit = {
-# 				has_variable = martial_book_0
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = martial_book_1
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = martial_book_2
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = intrigue_book_10
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = intrigue_book_11
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = intrigue_book_12
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_50
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_51
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_52
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_53
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_54
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		if = {
-# 			limit = {
-# 				has_variable = nonSpecific_55
-# 			}
-# 			add_prestige = 0
-# 		}
-# 		# 	break_if = {
-# 		# 		OR = {
-# 		# 			has_character_flag = martial_book_0
-# 		# 			has_character_flag = martial_book_1
-# 		# 			has_character_flag = martial_book_2
-# 		# 			has_character_flag = intrigue_book_10
-# 		# 			has_character_flag = intrigue_book_11
-# 		# 			has_character_flag = intrigue_book_12
-# 		# 			has_character_flag = nonSpecific_50
-# 		# 			has_character_flag = nonSpecific_51
-# 		# 			has_character_flag = nonSpecific_52
-# 		# 			has_character_flag = nonSpecific_53
-# 		# 			has_character_flag = nonSpecific_54
-# 		# 			has_character_flag = nonSpecific_55
-# 		# 			#Variable
-# 		# 			has_variable = martial_book_0
-# 		# 			has_variable = martial_book_1
-# 		# 			has_variable = martial_book_2
-# 		# 			has_variable = intrigue_book_10
-# 		# 			has_variable = intrigue_book_11
-# 		# 			has_variable = intrigue_book_12
-# 		# 			has_variable = nonSpecific_50
-# 		# 			has_variable = nonSpecific_51
-# 		# 			has_variable = nonSpecific_52
-# 		# 			has_variable = nonSpecific_53
-# 		# 			has_variable = nonSpecific_54
-# 		# 			has_variable = nonSpecific_55
-# 		# 		}
-# 		# 	}
 # 	}
 # }

@@ -1,7 +1,9 @@
 ﻿books_modifier = {
 	type = character
 	random_valid = yes
+	#--------------------
 	#Martial books
+	#--------------------
 	text = {
 		trigger = {
 			var:book_name = flag:random_book_0
@@ -62,7 +64,9 @@
 		}
 		localization_key = event_readBook_martial_9_book_modifier
 	}
+	#--------------------
 	# Intrigue books
+	#--------------------
 	text = {
 		trigger = {
 			var:book_name = flag:random_book_10
@@ -184,7 +188,135 @@
 		}
 		localization_key = event_readBook_diplomacy_29_book_modifier
 	}
+	#--------------------
+	# StewardShip Books
+	#--------------------
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_30
+		}
+		localization_key = event_readBook_stewardship_30_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_31
+		}
+		localization_key = event_readBook_stewardship_31_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_32
+		}
+		localization_key = event_readBook_stewardship_32_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_33
+		}
+		localization_key = event_readBook_stewardship_33_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_34
+		}
+		localization_key = event_readBook_stewardship_34_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_35
+		}
+		localization_key = event_readBook_stewardship_35_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_36
+		}
+		localization_key = event_readBook_stewardship_36_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_37
+		}
+		localization_key = event_readBook_stewardship_37_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_38
+		}
+		localization_key = event_readBook_stewardship_38_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_39
+		}
+		localization_key = event_readBook_stewardship_39_book_modifier
+	}
+	#--------------------
+	# Learning
+	#--------------------
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_40
+		}
+		localization_key = event_readBook_learning_40_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_41
+		}
+		localization_key = event_readBook_learning_41_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_42
+		}
+		localization_key = event_readBook_learning_42_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_43
+		}
+		localization_key = event_readBook_learning_43_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_44
+		}
+		localization_key = event_readBook_learning_44_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_45
+		}
+		localization_key = event_readBook_learning_45_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_46
+		}
+		localization_key = event_readBook_learning_46_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_47
+		}
+		localization_key = event_readBook_learning_47_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_48
+		}
+		localization_key = event_readBook_learning_48_book_modifier
+	}
+	text = {
+		trigger = {
+			var:book_name = flag:random_book_49
+		}
+		localization_key = event_readBook_learning_49_book_modifier
+	}
+	#--------------------
 	# Non specific books 
+	#--------------------
 	text = {
 		trigger = {
 			var:book_name = flag:random_book_50

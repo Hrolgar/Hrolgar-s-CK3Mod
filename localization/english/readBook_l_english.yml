@@ -26,6 +26,7 @@ event_readBook.1001.option1: "This is useful!"
 #event2------------------------------------------------
 event_readBook.1002.t: "Attacked on the Road!"
 event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
+# event_readBook.1002.desc.b: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
 #event3------------------------------------------------
 event_readBook.1003.t: "Slow night"
 event_readBook.1003.desc: "[SCOPE.sC('randomKnight').GetFirstName] is bored, while you read."

@@ -157,9 +157,115 @@ diplomacy_book_29 = {
 	martial = 1
 }
 
+# ----------------
 # Steward Books
+# ----------------
+stewardship_book_30 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_31 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_32 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_33 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_34 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_35 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_36 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_37 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_38 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+stewardship_book_39 = {
+	icon = stewardship_positive
+	stewardship = 1
+}
+
+# --------------------
 # Learning Books
+# --------------------
+learning_book_40 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_41 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_42 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_43 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_44 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_45 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_46 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_47 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_48 = {
+	icon = learing_positive
+	learning = 1
+}
+
+learning_book_49 = {
+	icon = learing_positive
+	learning = 1
+}
+
+# --------------------
 #! Non Specific books
+# --------------------
 nonSpecific_50 = {
 	icon = family_positive
 	stewardship = 1
