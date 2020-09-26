@@ -24,8 +24,8 @@ event_readBook.1001.t: "Uneventful Trip"
 event_readBook.1001.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books_modifier')], a very interesting book."
 event_readBook.1001.option1: "This is useful!"
 #event2------------------------------------------------
-event_readBook.1002.t: "Attacked on the Road!"
-event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
+event_readBook.1002.t: "Murderer amongst the Books!"
+event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] Somehow your enemies knew that you'd be in the library today, and sent a murderer"
 # event_readBook.1002.desc.b: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
 #event3------------------------------------------------
 event_readBook.1003.t: "Slow night"

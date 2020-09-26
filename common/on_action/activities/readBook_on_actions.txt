@@ -2,6 +2,7 @@
 	random_events = {
 		# 100 = event_readBook.0001		#Read in Study
 		100 = event_readBook.1000		#Go to the Library
+		# 1 = event_readBook.9999
 	}
 }
 
