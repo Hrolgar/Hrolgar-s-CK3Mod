@@ -1,5 +1,7 @@
 ﻿namespace = event_readBook
-#Going to the library ----------------------
+##--------------------------------------------
+###Going to the library  ----------------------
+##--------------------------------------------
 event_readBook.1000 = {
 	title = event_readBook.1000.t
 	theme = learning_scholarship_focus
@@ -37,21 +39,23 @@ event_readBook.1000 = {
 		}
 	}
 	#Bring a dynasty + courtier
-	option = {
-		name = event_readBook.1000.option.c.name
-		trigger = {
-			exists = scope:randomFamilyOrCourtier
-		}
-		trigger_event = {
-			on_action = event_onA_readBook_bringCourtier
-		}
-	}
+	# option = {
+	# 	name = event_readBook.1000.option.c.name
+	# 	trigger = {
+	# 		exists = scope:randomFamilyOrCourtier
+	# 	}
+	# 	trigger_event = {
+	# 		on_action = event_onA_readBook_bringCourtier
+	# 	}
+	# }
 }
 
-#Bring knight to library
-event_readBook.1001 = {
-	title = event_readBook.1001.t
-	desc = event_readBook.1001.desc
+##--------------------------------------------
+###Bring knight to library --------------------
+##--------------------------------------------
+event_readBook.1100 = {
+	title = event_readBook.1100.t
+	desc = event_readBook.1100.desc
 	theme = learning_scholarship_focus
 	right_portrait = {
 		character = root
@@ -62,7 +66,7 @@ event_readBook.1001 = {
 		animation = personality_honorable
 	}
 	option = {
-		name = "event_readBook.1001.option1"
+		name = event_readBook.1100.option.a.name
 		add_character_modifier = {
 			modifier = well_guarded
 			days = 5
@@ -78,260 +82,262 @@ event_readBook.1001 = {
 			select_random_book_effect_for_event = yes
 		}
 	}
-	# if i want to add an event to finish of the chain.
-	# after = {
-	# }
 }
 
-event_readBook.1002 = {
-	title = event_readBook.1002.t
-	desc = event_readBook.1002.desc
+# event_readBook.1002 = {
+# 	title = event_readBook.1002.t
+# 	desc = event_readBook.1002.desc
+# 	theme = learning_scholarship_focus
+# 	right_portrait = {
+# 		character = root
+# 		animation = personality_bold
+# 	}
+# 	left_portrait = {
+# 		character = scope:randomKnight
+# 		animation = personality_honorable
+# 	}
+# 	option = {
+# 		name = "Knight2"
+# 	}
+# }
+# event_readBook.1003 = {
+# 	title = event_readBook.1003.t
+# 	desc = event_readBook.1003.desc
+# 	theme = learning_scholarship_focus
+# 	right_portrait = {
+# 		character = root
+# 		animation = personality_bold
+# 	}
+# 	left_portrait = {
+# 		character = scope:randomKnight
+# 		animation = personality_honorable
+# 	}
+# 	option = {
+# 		name = "Knight3"
+# 	}
+# }
+##----------------------------------
+###Go alone to library ------------
+##----------------------------------
+event_readBook.1200 = {
+	title = event_readBook.1200.t
+	desc = event_readBook.1200.desc
 	theme = learning_scholarship_focus
 	right_portrait = {
 		character = root
-		animation = personality_bold
+		animation = disbelief
 	}
-	left_portrait = {
-		character = scope:randomKnight
-		animation = personality_honorable
+	lower_right_portrait = {
+		character = scope:murderer
+		animation = rage
 	}
-	option = {
-		name = "Knight2"
+	lower_left_portrait = {
+		character = scope:event_victim
+		animation = beg
 	}
-}
-
-event_readBook.1003 = {
-	title = event_readBook.1003.t
-	desc = event_readBook.1003.desc
-	theme = learning_scholarship_focus
-	right_portrait = {
-		character = root
-		animation = personality_bold
-	}
-	left_portrait = {
-		character = scope:randomKnight
-		animation = personality_honorable
-	}
-	option = {
-		name = "Knight3"
-	}
-}
-
-#Go alone to library
-event_readBook.2001 = {
-	title = event_readBook.2001.t
-	desc = event_readBook.2001.desc
-	theme = learning_scholarship_focus
-	right_portrait = root
-	option = {
-		name = "Alone1"
-	}
-}
-
-event_readBook.2002 = {
-	title = event_readBook.2002.t
-	desc = event_readBook.2002.desc
-	theme = learning_scholarship_focus
-	right_portrait = root
-	option = {
-		name = "Alone2"
-	}
-}
-
-#Bring Courtier to library
-event_readBook.3001 = {
-	title = event_readBook.3001.t
-	desc = event_readBook.3001.desc
-	theme = learning_scholarship_focus
-	right_portrait = {
-		character = root
-		animation = personality_bold
-	}
-	left_portrait = {
-		character = scope:randomCourtier
-		animation = personality_honorable
-	}
-	option = {
-		name = "Dynast1"
-	}
-}
-
-event_readBook.3002 = {
-	title = event_readBook.3002.t
-	desc = event_readBook.3002.desc
-	theme = learning_scholarship_focus
-	right_portrait = {
-		character = root
-		animation = personality_bold
-	}
-	left_portrait = {
-		character = scope:randomCourtier
-		animation = personality_honorable
-	}
-	option = {
-		name = "Dynast2"
-	}
-}
-
-event_readBook.3003 = {
-	title = event_readBook.3003.t
-	desc = event_readBook.3003.desc
-	theme = learning_scholarship_focus
-	right_portrait = {
-		character = root
-		animation = personality_bold
-	}
-	left_portrait = {
-		character = scope:randomCourtier
-		animation = personality_honorable
-	}
-	option = {
-		name = "Dynast3"
-	}
-}
-
-#Going to the study ----------------------
-event_readBook.0001 = {
-	title = event_readBook.0001.t
-	desc = event_readBook.0001.desc
-	theme = learning_scholarship_focus
-	right_portrait = root
-	option = {
-		trigger = {
-			NOT = {
-				exists = scope:randomCourtier
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				template = new_murderer_character
+				employer = root
+				save_scope_as = murderer
+				after_creation = {
+					set_to_lowborn = yes
+					move_to_pool = yes
+				}
+			}
+			create_character = {
+				template = new_event_victim
+				employer = root
+				save_scope_as = event_victim
+				after_creation = {
+					set_to_lowborn = yes
+					move_to_pool = yes
+				}
 			}
 		}
-		name = event_readBook.0001.option.a.name
 	}
+	#Don't intervene option
 	option = {
-		name = event_readBook.0001.option.b.name
+		name = event_readBook.1200.option.a.name
+		if = {
+			limit = {
+				OR = {
+					has_trait = craven
+					has_trait = arbitrary
+					has_trait = deceitful
+					has_trait = sadistic
+				}
+			}
+			add_stress = -20
+			# Add modifier, got away from a sticky situation?
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_trait = just
+					has_trait = brave
+					has_trait = honest
+				}
+			}
+			add_stress = 30
+		}
+		else = {
+			add_stress = 15
+			# Add modifier, ran away from a situation I should have intervened?
+		}
+		scope:event_victim = {
+			death = {
+				killer = scope:murderer
+				death_reason = death_murder
+			}
+		}
+	}
+	#Intervene on behalf of the murderer option
+	option = {
+		name = event_readBook.1200.option.b.name
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						has_trait = sadistic
+						has_trait = arbitrary
+						has_trait = wrathful
+					}
+				}
+			}
+			add_stress = 20
+		}
+		else = {
+			add_stress = -20
+		}
+		trigger_event = {
+			id = event_readBook.1201
+		}
+	}
+	#Intervene on behalf of the event_victim option
+	option = {
+		name = event_readBook.1200.option.c.name
+		trigger_event = {
+			id = event_readBook.1220
+		}
 	}
 }
 
-# event_readBook.9999 = {
-# 	type = character_event
-# 	hidden = yes
-# 	# has_character_flag = martial_book_0
-# 	# has_character_flag = martial_book_1
-# 	# has_character_flag = martial_book_2
-# 	# has_character_flag = martial_book_3
-# 	# has_character_flag = martial_book_4
-# 	# has_character_flag = martial_book_5
-# 	# has_character_flag = martial_book_6
-# 	# has_character_flag = martial_book_7
-# 	# has_character_flag = martial_book_8
-# 	# has_character_flag = martial_book_9
-# 	# has_character_flag = intrigue_book_10
-# 	# has_character_flag = intrigue_book_11
-# 	# has_character_flag = intrigue_book_12
-# 	# has_character_flag = intrigue_book_13
-# 	# has_character_flag = intrigue_book_14
-# 	# has_character_flag = intrigue_book_15
-# 	# has_character_flag = intrigue_book_16
-# 	# has_character_flag = intrigue_book_17
-# 	# has_character_flag = intrigue_book_18
-# 	# has_character_flag = intrigue_book_19
-# 	# has_character_flag = diplomacy_book_20
-# 	# has_character_flag = diplomacy_book_21
-# 	# has_character_flag = diplomacy_book_22
-# 	# has_character_flag = diplomacy_book_23
-# 	# has_character_flag = diplomacy_book_24
-# 	# has_character_flag = diplomacy_book_25
-# 	# has_character_flag = diplomacy_book_26
-# 	# has_character_flag = diplomacy_book_27
-# 	# has_character_flag = diplomacy_book_28
-# 	# has_character_flag = diplomacy_book_29
-# 	# has_character_flag = stewardship_book_30
-# 	# has_character_flag = stewardship_book_31
-# 	# has_character_flag = stewardship_book_32
-# 	# has_character_flag = stewardship_book_33
-# 	# has_character_flag = stewardship_book_34
-# 	# has_character_flag = stewardship_book_35
-# 	# has_character_flag = stewardship_book_36
-# 	# has_character_flag = stewardship_book_37
-# 	# has_character_flag = stewardship_book_38
-# 	# has_character_flag = stewardship_book_39
-# 	# has_character_flag = learning_book_40
-# 	# has_character_flag = learning_book_41
-# 	# has_character_flag = learning_book_42
-# 	# has_character_flag = learning_book_43
-# 	# has_character_flag = learning_book_44
-# 	# has_character_flag = learning_book_45
-# 	# has_character_flag = learning_book_46
-# 	# has_character_flag = learning_book_47
-# 	# has_character_flag = learning_book_48
-# 	# has_character_flag = learning_book_49
-# 	# has_character_flag = nonSpecific_50
-# 	# has_character_flag = nonSpecific_51
-# 	# has_character_flag = nonSpecific_52
-# 	# has_character_flag = nonSpecific_53
-# 	# has_character_flag = nonSpecific_54
-# 	# has_character_flag = nonSpecific_55
-# 	# has_character_flag = nonSpecific_56
-# 	# has_character_flag = nonSpecific_57
-# 	# has_character_flag = nonSpecific_58
-# 	# has_character_flag = nonSpecific_59
-# 	# has_character_flag = nonSpecific_60
-# 	# has_variable = martial_book_0
-# 	# has_variable = martial_book_1
-# 	# has_variable = martial_book_2
-# 	# has_variable = martial_book_3
-# 	# has_variable = martial_book_4
-# 	# has_variable = martial_book_5
-# 	# has_variable = martial_book_6
-# 	# has_variable = martial_book_7
-# 	# has_variable = martial_book_8
-# 	# has_variable = martial_book_9
-# 	# has_variable = intrigue_book_10
-# 	# has_variable = intrigue_book_11
-# 	# has_variable = intrigue_book_12
-# 	# has_variable = intrigue_book_13
-# 	# has_variable = intrigue_book_14
-# 	# has_variable = intrigue_book_15
-# 	# has_variable = intrigue_book_16
-# 	# has_variable = intrigue_book_17
-# 	# has_variable = intrigue_book_18
-# 	# has_variable = intrigue_book_19
-# 	# has_variable = diplomacy_book_20
-# 	# has_variable = diplomacy_book_21
-# 	# has_variable = diplomacy_book_22
-# 	# has_variable = diplomacy_book_23
-# 	# has_variable = diplomacy_book_24
-# 	# has_variable = diplomacy_book_25
-# 	# has_variable = diplomacy_book_26
-# 	# has_variable = diplomacy_book_27
-# 	# has_variable = diplomacy_book_28
-# 	# has_variable = diplomacy_book_29
-# 	# has_variable = stewardship_book_30
-# 	# has_variable = stewardship_book_31
-# 	# has_variable = stewardship_book_32
-# 	# has_variable = stewardship_book_33
-# 	# has_variable = stewardship_book_34
-# 	# has_variable = stewardship_book_35
-# 	# has_variable = stewardship_book_36
-# 	# has_variable = stewardship_book_37
-# 	# has_variable = stewardship_book_38
-# 	# has_variable = stewardship_book_39
-# 	# has_variable = learning_book_40
-# 	# has_variable = learning_book_41
-# 	# has_variable = learning_book_42
-# 	# has_variable = learning_book_43
-# 	# has_variable = learning_book_44
-# 	# has_variable = learning_book_45
-# 	# has_variable = learning_book_46
-# 	# has_variable = learning_book_47
-# 	# has_variable = learning_book_48
-# 	# has_variable = learning_book_49
-# 	# has_variable = nonSpecific_50
-# 	# has_variable = nonSpecific_51
-# 	# has_variable = nonSpecific_52
-# 	# has_variable = nonSpecific_53
-# 	# has_variable = nonSpecific_54
-# 	# has_variable = nonSpecific_55
-# 	# has_variable = nonSpecific_56
-# 	# has_variable = nonSpecific_57
-# 	# has_variable = nonSpecific_58
-# 	# has_variable = nonSpecific_59
-# 	# has_variable = nonSpecific_60
+##Help kill the victim
+event_readBook.1201 = {
+	title = event_readBook.1201.t
+	desc = event_readBook.1201.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = personality_dishonorable
+	}
+	left_portrait = {
+		character = scope:murderer
+		animation = rage
+	}
+	#Have fun killing the victim
+	option = {
+		name = event_readBook.1201.option.a.name
+		trigger_event = {
+			id = event_readBook.1210
+		}
+		scope:event_victim = {
+			death = {
+				killer = scope:murderer
+				death_reason = death_murder
+			}
+		}
+	}
+}
+
+##Victim is killed, you can hire or not.
+event_readBook.1210 = {
+	title = event_readBook.1210.t
+	desc = event_readBook.1210.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = rage
+	}
+	left_portrait = {
+		character = scope:murderer
+		animation = rage
+	}
+	#Hire the murderer, get hook
+	option = {
+		name = event_readBook.1210.option.a.name
+		scope:murderer = {
+			set_employer = root
+		}
+		add_hook = {
+			target = scope:murderer
+			type = favor_hook
+		}
+	}
+	#Walk away
+	option = {
+		name = event_readBook.1210.option.b.name
+		add_hook = {
+			target = scope:murderer
+			type = favor_hook
+		}
+	}
+}
+
+##Help the victim
+event_readBook.1220 = {
+	title = event_readBook.1220.t
+	desc = event_readBook.1220.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	lower_right_portrait = {
+		character = scope:event_victim
+		animation = beg
+	}
+	lower_left_portrait = {
+		character = scope:murderer
+		animation = fear
+	}
+	#Fight the murderer
+	option = {
+		name = event_readBook.1220.option.a.name
+		scope:event_victim = {
+			set_employer = root
+		}
+		imprison = {
+			target = scope:murderer
+			type = dungeon
+		}
+	}
+	option = {
+		name = event_readBook.1220.option.b.name
+		imprison = {
+			target = scope:murderer
+			type = dungeon
+		}
+	}
+}
+
+###Going to the study ----------------------
+# event_readBook.1300 = {
+# 	title = event_readBook.1300.t
+# 	desc = event_readBook.1300.desc
+# 	theme = learning_scholarship_focus
+# 	right_portrait = root
+# 	option = {
+# 		trigger = {
+# 			NOT = {
+# 				exists = scope:randomCourtier
+# 			}
+# 		}
+# 		name = event_readBook.1300.option.a.name
+# 	}
+# 	option = {
+# 		name = event_readBook.1300.option.b.name
+# 	}
 # }

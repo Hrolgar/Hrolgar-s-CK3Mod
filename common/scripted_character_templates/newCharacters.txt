@@ -1,0 +1,134 @@
+﻿new_murderer_character = {
+	age = {
+		16
+		45
+	}
+	random_traits = no
+	culture = root.culture
+	faith = root.faith
+	gender_female_chance = 15
+	dynasty = lowborn
+	intrigue = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+	random_traits_list = {
+		count = 1
+		schemer = {
+		}
+		torturer = {
+		}
+	}
+	random_traits_list = {
+		count = 1
+		education_intrigue_2 = {
+		}
+		education_intrigue_3 = {
+		}
+		education_intrigue_4 = {
+		}
+	}
+	random_traits_list = {
+		count = 1
+		beauty_good_1 = {
+		}
+		beauty_good_2 = {
+		}
+		beauty_good_3 = {
+		}
+		intellect_good_1 = {
+		}
+		intellect_good_2 = {
+		}
+		intellect_good_3 = {
+		}
+		shrewd = {
+		}
+		fecund = {
+		}
+		dwarf = {
+		}
+		giant = {
+		}
+		albino = {
+		}
+		bleeder = {
+		}
+		lunatic_1 = {
+		}
+		possessed_1 = {
+		}
+	}
+	random_traits_list = {
+		count = 3
+		lustful = {
+		}
+		deceitful = {
+		}
+		brave = {
+		}
+		gregarious = {
+		}
+		ambitious = {
+		}
+		vengeful = {
+		}
+		gluttonous = {
+		}
+		temperate = {
+		}
+		greedy = {
+		}
+		generous = {
+		}
+		lazy = {
+		}
+		diligent = {
+		}
+		wrathful = {
+		}
+		calm = {
+		}
+		patient = {
+		}
+		impatient = {
+		}
+		arrogant = {
+		}
+		honest = {
+		}
+		arbitrary = {
+		}
+		just = {
+		}
+		paranoid = {
+		}
+		trusting = {
+		}
+		compassionate = {
+		}
+		callous = {
+		}
+		sadistic = {
+		}
+		stubborn = {
+		}
+		fickle = {
+		}
+		forgiving = {
+		}
+	}
+}
+
+new_event_victim = {
+	age = {
+		16
+		45
+	}
+	random_traits = yes
+	culture = root.culture
+	faith = root.faith
+	faith = root.faith
+	gender_female_chance = 50
+	dynasty = lowborn
+}

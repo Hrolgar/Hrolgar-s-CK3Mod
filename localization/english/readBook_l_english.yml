@@ -20,24 +20,37 @@ event_readBook.1000.option.c.name: "I will bring, [randomFamilyOrCourtier.GetFir
 
 #!Library with Knight
 #event Uneventful------------------------------------------------
-event_readBook.1001.t: "Uneventful Trip"
-event_readBook.1001.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books_modifier')], a very interesting book."
-event_readBook.1001.option1: "This is useful!"
+event_readBook.1100.t: "Uneventful Trip"
+event_readBook.1100.desc: "The trip to the library was fully uneventful, your knight [randomKnight.GetFirstName] was at full alert at all time. You feel [GetModifier('well_guarded').GetNameWithTooltip]. You also found [ROOT.Char.Custom('books_modifier')], a very interesting book."
+event_readBook.1100.option.a.name: "This is useful!"
 #event2------------------------------------------------
-event_readBook.1002.t: "Murderer amongst the Books!"
-event_readBook.1002.desc: "[SCOPE.sC('randomKnight').GetFirstName] Somehow your enemies knew that you'd be in the library today, and sent a murderer"
-# event_readBook.1002.desc.b: "[SCOPE.sC('randomKnight').GetFirstName] saved you!"
+# event_readBook.1002.t: "Murderer amongst the Books!"
+# event_readBook.1002.desc: " "
 #event3------------------------------------------------
-event_readBook.1003.t: "Slow night"
-event_readBook.1003.desc: "[SCOPE.sC('randomKnight').GetFirstName] is bored, while you read."
+# event_readBook.1003.t: "Slow night"
+# event_readBook.1003.desc: "[SCOPE.sC('randomKnight').GetFirstName] is bored, while you read."
 
 #!Library alone
 #event1
-event_readBook.2001.t: "Alone in the Library"
-event_readBook.2001.desc: "Fun and alone"
-#event1
-event_readBook.2002.t: "Invest in books"
-event_readBook.2002.desc: "Would I like to invest?"
+event_readBook.1200.t: "Murder Among Books"
+event_readBook.1200.desc: "You decided to disguise yourself as a commoner visiting [home.GetBaseNameNoTier]'s library. Walking there was uneventful, other than a few looks from some ladies in the courtyard. As it's late in the evening you thought you were alone in the library. But you weren't. In the corner you hear [SCOPE.sC('event_victim').GetFirstName] screaming "Nooooo! Pleeaaaseee!". What will you do?"
+event_readBook.1200.option.a.name: "Don't intervene"
+event_readBook.1200.option.b.name: "This will be fun! I'll help the murderer, he must have a good reason!"
+event_readBook.1200.option.c.name: "I must help the poor soul!"
+#?Help the murderer (option 1200-b)
+event_readBook.1201.t: "Blowing off some Steam"
+event_readBook.1201.desc: "You decided to help [SCOPE.sC('murderer').GetFirstName] murder [SCOPE.sC('event_victim').GetFirstName]. This will be fun!"
+event_readBook.1201.option.a.name: "Get some blood on your hands."
+#Hire the murderer? 
+event_readBook.1210.t: "The Silence"
+event_readBook.1210.desc: "You don't know what happened, after the rage.. the blood, you see [SCOPE.sC('event_victim').GetFirstName] lie dead on on the ground. [SCOPE.sC('murderer').GetFirstName] looks at you with a grin. "You enjoyed that, I could use a new employer. You don't happen to know of one?" "
+event_readBook.1210.option.a.name: "Hire [SCOPE.sC('murderer').GetFirstName]."
+event_readBook.1210.option.b.name: "This was fun, but I have no need of you."
+#?Help the victim (option 1200-c)
+event_readBook.1220.t: "Victim Impossible"
+event_readBook.1220.desc: ""Hey, stop that!" you yell at [murderer.GetFirstName]. He stopped beating on [event_victim.GetFirstName] and turned his attention on you. You beat him up. [event_victim.GetFirstName] thanked you and asked if you needed company back to the castle?"
+event_readBook.1220.option.a.name: "Yes, please tag along"
+event_readBook.1220.option.b.name: "No thanks, enjoy your evening."
 
 #!Library with courtier
 #event1

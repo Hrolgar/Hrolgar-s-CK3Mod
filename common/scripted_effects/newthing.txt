@@ -1,0 +1,43 @@
+﻿asd = {
+	hidden_effect = {
+		#Find an appropriate person to murder
+		if = {
+			#Performance heavy option finding is only for players
+			limit = {
+				is_ai = no
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_close_family_of = root
+					}
+				}
+				random_pool_character = {
+					province = root.capital_province
+					limit = {
+						NOT = {
+							is_imprisoned = no
+						}
+						is_lowborn = yes
+					}
+					save_scope_as = event_victim
+				}
+			}
+		}
+		else = {
+			# AI will get something simple
+		}
+		if = {
+			limit = {
+				NOT = {
+					exists = scope:event_victim
+				}
+			}
+			create_character = {
+				location = root.capital_province
+				template = new_event_victim
+				employer = root
+			}
+		}
+	}
+}
